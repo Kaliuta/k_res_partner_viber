@@ -10,7 +10,8 @@
     'description': "Add Viber Redirect button",
     'author': 'Vasil Kaliuta',
     'website': 'https://t.me/kaliuta',
-    'license': 'LGPL-3',
+    # 'license': 'LGPL-3',
+    'license': 'OPL-1',
     "images": ["static/description/main_screenshot.jpeg", "static/description/v2.jpg"],
     'depends': [
         'base',
