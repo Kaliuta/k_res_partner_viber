@@ -1,46 +1,601 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Module Description</title>
+    <title>Module Vchasno kasa connector</title>
 </head>
 <body>
-    <h1>Module Name: Viber Redirect</h1><small>[k_res_partner_viber]</small>
-    <h2>Description</h2>
-    <p>
-        The module adds a Viber button next to the phone number, allowing users to easily initiate a conversation in Viber with the given phone number.
-    </p>
-    <h2>Features</h2>
-    <ul>
-        <li>Integration with Viber</li>
-        <li>Displaying a Viber button next to phone numbers</li>
-        <li>Clicking the button opens a chat in Viber with the respective phone number</li>
-    </ul>
-    <h2>Screenshots</h2>
-    <h3>Screenshot 1: Viber Button</h3>
-    <img src="main_screenshot.jpeg" alt="Screenshot 1" width="90%">
-    <h3>Screenshot 2: Viber Chat</h3>
-    <img src="v2.jpeg" alt="Screenshot 2" width="600">
-    <h2>Installation</h2>
-    <p>
-        To install this module, follow the steps below:
-    </p>
-    <ol>
-        <li>Go to the Apps menu in your Odoo instance</li>
-        <li>Click on the "Update Apps List" button</li>
-        <li>Search for the "k_res_partner_viber" module</li>
-        <li>Click on the "Install" button to install the module</li>
-    </ol>
-    <h2>Usage</h2>
-    <p>
-        After installing the module, the Viber button will be displayed next to phone numbers in relevant views. Clicking the button will open a chat in Viber with the respective phone number.
-    </p>
-    <h2>Requirements</h2>
-    <p>
-        This module requires Odoo version 16.
-    </p>
-    <h2>Support</h2>
-    <p>
-        If you have any questions or need assistance with this module, please contact our support team at <a href="https://t.me/kaliuta">https://t.me/kaliuta</a>
-    </p>
+<h1 itemprop="name">Module Vchasno kasa connector</h1>
+<p class="text-muted my-2" placeholder="A short description that will also appear on documents.">Module Vchasno kasa
+    connector- Odoo integration with the Vchasno.kasa service via API, which allows you to work directly from the Odoo
+    POS interface without going to the Vchasno.kasa account itself.<br>
+    <br>
+    - Make a Retail sale or return and send information to the State Tax Service.<br>
+    - Make a sale or return for Orders on the website and send it to the State Tax Service.<br>
+    - Print a receipt to the customer and/or send it electronically.<br>
+    - Receive and print the X-Report.<br>
+    - Receive and print the Z-Report.</p>
+<div itemprop="description" class="oe_structure oe_empty mt16" id="product_full_description">
+    <section class="s_title o_colored_level pt40 pb40" data-vcss="001" data-snippet="s_title" data-name="Title"
+             style="background-image: none;">
+        <div class="s_allow_columns container">
+            <h1 style="text-align: center;"><font style="font-size: 62px;">Advantages of the module:</font><br></h1>
+        </div>
+    </section>
+    <section class="s_company_team o_colored_level pb0 pt0" data-snippet="s_company_team" data-name="Team"
+             style="background-image: none;">
+        <div class="container">
+            <div class="row s_nb_column_fixed">
+                <div class="col-lg-6 pt24 pb24 o_colored_level">
+                    <div class="row s_col_no_resize s_col_no_bgcolor">
+                        <div class="col-lg-4 pb16 o_not_editable">
+                            <img src="/spoc_vchasno_connect/static/description/image/perevagi_icon1.png"
+                                 class="img-fluid mx-auto rounded-circle rounded o_animate o_anim_fade_in o_animate_both_scroll o_visible o_animated"
+                                 loading="lazy"
+                                 style="width: 50% !important; animation-name: o_anim_fade_in; visibility: visible; animation-play-state: running;"
+                                 data-original-id="4558"
+                                 data-original-src="/spoc_vchasno_connect/static/description/image/perevagi_icon1.png"
+                                 data-mimetype="image/png" data-resize-width="64">
+                        </div>
+                        <div class="col-lg-8">
+                            <h4>Simplicity and efficiency:</h4>
+                            <p><span style="font-size:12.0pt">Vchasno kasa connector easily and quickly integrates Vchasno.kasa with the Odoo software cash register via API. Fiscalizes and sends fiscal receipts to the client by email or any convenient messenger.</span>
+                            </p>
+                            <p><br></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 pt24 pb24 o_colored_level">
+                    <div class="row s_col_no_resize s_col_no_bgcolor">
+                        <div class="col-lg-4 pb16 o_not_editable">
+                            <img src="/spoc_vchasno_connect/static/description/image/perevagi_icon2.png"
+                                 class="img-fluid mx-auto o_animate o_anim_fade_in rounded-circle o_animate_both_scroll o_visible o_animated"
+                                 loading="lazy"
+                                 style="width: 50% !important; animation-name: o_anim_fade_in; visibility: visible; animation-play-state: running;"
+                                 data-original-id="4559"
+                                 data-original-src="/spoc_vchasno_connect/static/description/image/perevagi_icon2.png"
+                                 data-mimetype="image/png" data-resize-width="64">
+                        </div>
+                        <div class="col-lg-8">
+                            <h4>Compliance with legislation:</h4>
+                            <p>The Vchasno kasa connector helps your business comply with all tax obligations regarding
+                                accounting and fiscal data transmission and helps you avoid possible tax penalties.<br>
+                            </p>
+                            <p class="o_default_snippet_text"><br></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 pt24 pb24 o_colored_level">
+                    <div class="row s_col_no_resize s_col_no_bgcolor">
+                        <div class="col-lg-4 pb16 o_not_editable">
+                            <img src="/spoc_vchasno_connect/static/description/image/perevagi_icon3.png"
+                                 class="img-fluid mx-auto o_animate o_anim_fade_in o_animate_both_scroll rounded-circle o_visible o_animated"
+                                 loading="lazy"
+                                 style="width: 50% !important; animation-name: o_anim_fade_in; visibility: visible; animation-play-state: running;"
+                                 data-original-id="4562"
+                                 data-original-src="/spoc_vchasno_connect/static/description/image/perevagi_icon3.png"
+                                 data-mimetype="image/png" data-resize-width="64">
+                        </div>
+                        <div class="col-lg-8">
+                            <h4>Effective integration:</h4>
+                            <p>Vchasno kasa connector provides automatic accounting and data processing. After
+                                connecting, Vchasno kasa connector starts automatically recording and accounting for
+                                fiscal data related to payments in your business.<br></p>
+                            <p class="o_default_snippet_text"><br></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 pt24 pb24 o_colored_level">
+                    <div class="row s_col_no_resize s_col_no_bgcolor">
+                        <div class="col-lg-4 pb16 o_not_editable">
+                            <img src="/spoc_vchasno_connect/static/description/image/perevagi_icon4.png"
+                                 class="img-fluid rounded-circle mx-auto o_animate o_anim_fade_in o_animate_both_scroll o_visible o_animated"
+                                 loading="lazy"
+                                 style="width: 50% !important; animation-name: o_anim_fade_in; visibility: visible; animation-play-state: running;"
+                                 data-original-id="4560"
+                                 data-original-src="/spoc_vchasno_connect/static/description/image/perevagi_icon4.png"
+                                 data-mimetype="image/png" data-resize-width="64">
+                        </div>
+                        <div class="col-lg-8">
+                            <h4>Providing reports:</h4>
+                            <p>The Vchasno kasa connector allows you to generate and provide the necessary reports for
+                                the tax service and internal audit.<br><br></p>
+                            <p class="o_default_snippet_text"><br></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="s_company_team pb48 o_colored_level pt0" data-snippet="s_company_team" data-name="Team"
+             style="background-image: none;">
+        <div class="container">
+            <div class="row s_nb_column_fixed">
+                <div class="col-lg-6 pt24 pb24 o_colored_level">
+                    <div class="row s_col_no_resize s_col_no_bgcolor">
+                        <div class="col-lg-4 pb16 o_not_editable">
+                            <img src="/spoc_vchasno_connect/static/description/image/perevagi_icon5.png"
+                                 class="img-fluid mx-auto o_animate o_anim_fade_in o_animate_both_scroll o_visible o_animated"
+                                 loading="lazy"
+                                 style="width: 50% !important; animation-name: o_anim_fade_in; visibility: visible; animation-play-state: running;"
+                                 data-original-id="4563"
+                                 data-original-src="/spoc_vchasno_connect/static/description/image/perevagi_icon5.png"
+                                 data-mimetype="image/png" data-resize-width="64">
+                        </div>
+                        <div class="col-lg-8">
+                            <h4>Minimizing risks:</h4>
+                            <p>Using the Vchasno kasa connector, you reduce the likelihood of errors and shortcomings in
+                                accounting, which reduces the risks for your business.<br></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 pt24 pb24 o_colored_level">
+                    <div class="row s_col_no_resize s_col_no_bgcolor">
+                        <div class="col-lg-4 pb16 o_not_editable">
+                            <img src="/spoc_vchasno_connect/static/description/image/perevagi_icon6.png"
+                                 class="img-fluid mx-auto o_animate o_anim_fade_in o_animate_both_scroll rounded-circle o_visible o_animated"
+                                 loading="lazy"
+                                 style="transition: none 0s ease 0s; width: 50% !important; animation-name: o_anim_fade_in; visibility: visible; animation-play-state: running;"
+                                 data-original-id="4561"
+                                 data-original-src="/spoc_vchasno_connect/static/description/image/perevagi_icon6.png"
+                                 data-mimetype="image/png" data-resize-width="64">
+                        </div>
+                        <div class="col-lg-8">
+                            <h4>Automatic sending of checks:</h4>
+                            <p>
+                                <span style="color: rgb(35, 31, 32)">The ability to completely refuse to print fiscal receipts and simply send them to customers via email, Viber, and SMS.</span><br>
+                            </p>
+                            <p class="o_default_snippet_text"><br></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="s_title o_colored_level pt0 pb0" data-vcss="001" data-snippet="s_title" data-name="Title"
+             style="background-image: none;">
+        <div class="s_allow_columns container">
+            <h1 style="text-align: center;"><font style="font-size: 62px;">Main Module Functions:</font><br></h1>
+        </div>
+    </section>
+    <section class="s_text_block pt40 o_colored_level pb0" data-snippet="s_text_block" data-name="Text"
+             style="background-image: none;">
+        <div class="s_allow_columns container">
+            <p style="text-align: center;"><img
+                    class="img-fluid o_we_custom_image o_animate o_anim_fade_in_left o_animate_both_scroll"
+                    src="/spoc_vchasno_connect/static/description/image/right_arrow.gif"
+                    data-original-id="4572" data-original-src="/spoc_vchasno_connect/static/description/image/4572-f5f831c0/XIwNtM29TyhH.gif"
+                    data-mimetype="image/gif" loading="lazy"
+                    style="animation-name: o_anim_fade_in_left; visibility: visible; animation-play-state: paused;">Automatic
+                registration of sales and return receipts in the Vchasno Kasa service.<br><br><img
+                        class="img-fluid o_we_custom_image o_animate o_anim_fade_in_left o_animate_both_scroll"
+                        src="/spoc_vchasno_connect/static/description/image/right_arrow.gif"
+                        data-original-id="4572" data-original-src="/spoc_vchasno_connect/static/description/image/4572-f5f831c0/XIwNtM29TyhH.gif"
+                        data-mimetype="image/gif" loading="lazy"
+                        style="animation-name: o_anim_fade_in_left; visibility: visible; animation-play-state: paused;">Generating
+                a printed form of a check received from the Vchasno kasa service.<br><br><img
+                        class="img-fluid o_we_custom_image o_animate o_anim_fade_in_left o_animate_both_scroll"
+                        src="/spoc_vchasno_connect/static/description/image/right_arrow.gif"
+                        data-original-id="4572" data-original-src="/spoc_vchasno_connect/static/description/image/4572-f5f831c0/XIwNtM29TyhH.gif"
+                        data-mimetype="image/gif" loading="lazy"
+                        style="animation-name: o_anim_fade_in_left; visibility: visible; animation-play-state: paused;">Sending
+                a link to the fiscalized receipt on the STS server to the client via email, Viber, and SMS.<br><br><img
+                        class="img-fluid o_we_custom_image o_animate o_anim_fade_in_left o_animate_both_scroll"
+                        src="/spoc_vchasno_connect/static/description/image/right_arrow.gif"
+                        data-original-id="4572" data-original-src="/spoc_vchasno_connect/static/description/image/4572-f5f831c0/XIwNtM29TyhH.gif"
+                        data-mimetype="image/gif" loading="lazy"
+                        style="animation-name: o_anim_fade_in_left; visibility: visible; animation-play-state: paused;">Function
+                of printing, uploading a receipt and checking a receipt to the State Tax Service <br><br><img
+                        class="img-fluid o_we_custom_image o_animate o_anim_fade_in_left o_animate_both_scroll"
+                        src="/spoc_vchasno_connect/static/description/image/right_arrow.gif"
+                        data-original-id="4572" data-original-src="/spoc_vchasno_connect/static/description/image/4572-f5f831c0/XIwNtM29TyhH.gif"
+                        data-mimetype="image/gif" loading="lazy"
+                        style="animation-name: o_anim_fade_in_left; visibility: visible; animation-play-state: paused;">Create
+                and fiscalize checks from the list of Sales Orders.<br><br><img
+                        class="img-fluid o_we_custom_image o_animate o_anim_fade_in_left o_animate_both_scroll"
+                        src="/spoc_vchasno_connect/static/description/image/right_arrow.gif"
+                        data-original-id="4572" data-original-src="/spoc_vchasno_connect/static/description/image/4572-f5f831c0/XIwNtM29TyhH.gif"
+                        data-mimetype="image/gif" loading="lazy"
+                        style="animation-name: o_anim_fade_in_left; visibility: visible; animation-play-state: paused;">Opening
+                and closing shifts in Vchasno.kassa from the Odoo POS interface.<br><br><img
+                        class="img-fluid o_we_custom_image o_animate o_anim_fade_in_left o_animate_both_scroll"
+                        src="/spoc_vchasno_connect/static/description/image/right_arrow.gif"
+                        data-original-id="4572" data-original-src="/spoc_vchasno_connect/static/description/image/4572-f5f831c0/XIwNtM29TyhH.gif"
+                        data-mimetype="image/gif" loading="lazy"
+                        style="animation-name: o_anim_fade_in_left; visibility: visible; animation-play-state: paused;">Ability
+                to check the status of communication with Vchasno.kassa.<br><br><img
+                        class="img-fluid o_we_custom_image o_animate o_anim_fade_in_left o_animate_both_scroll"
+                        src="/spoc_vchasno_connect/static/description/image/right_arrow.gif"
+                        loading="lazy" data-original-id="4572"
+                        data-original-src="/spoc_vchasno_connect/static/description/image/4572-f5f831c0/XIwNtM29TyhH.gif" data-mimetype="image/gif"
+                        style="animation-name: o_anim_fade_in_left; visibility: visible; animation-play-state: paused;">Transferring
+                information about cash deposits and withdrawals to Vchasno.kassa.<br><br><img
+                        class="img-fluid o_we_custom_image"
+                        src="/spoc_vchasno_connect/static/description/image/right_arrow.gif"
+                        loading="lazy" style="">Generating an X-report from Vchasno.kassa data.<br><br><img
+                        class="img-fluid o_we_custom_image o_animate o_anim_fade_in_left o_animate_both_scroll"
+                        src="/spoc_vchasno_connect/static/description/image/right_arrow.gif"
+                        loading="lazy" data-original-id="4572"
+                        data-original-src="/spoc_vchasno_connect/static/description/image/4572-f5f831c0/XIwNtM29TyhH.gif" data-mimetype="image/gif"
+                        style="animation-name: o_anim_fade_in_left; visibility: visible; animation-play-state: paused;">Z-report
+                registration, printing, and storage.<br><br><img
+                        class="img-fluid o_we_custom_image o_animate o_anim_fade_in_left o_animate_both_scroll o_animated"
+                        src="/spoc_vchasno_connect/static/description/image/right_arrow.gif"
+                        loading="lazy" data-original-id="4572"
+                        data-original-src="/spoc_vchasno_connect/static/description/image/4572-f5f831c0/XIwNtM29TyhH.gif" data-mimetype="image/gif"
+                        style="animation-name: o_anim_fade_in_left; visibility: visible; animation-play-state: paused;">Fixing
+                the fiscal number of the Z-report in the session log and the ability to re-print the registered
+                Z-report.<br><br><img
+                        class="img-fluid o_we_custom_image o_animate o_anim_fade_in_left o_animate_both_scroll"
+                        src="/spoc_vchasno_connect/static/description/image/right_arrow.gif"
+                        loading="lazy" data-original-id="4572"
+                        data-original-src="/spoc_vchasno_connect/static/description/image/4572-f5f831c0/XIwNtM29TyhH.gif" data-mimetype="image/gif"
+                        style="animation-name: o_anim_fade_in_left; visibility: visible; animation-play-state: paused;">History
+                of working with sessions.<br><br><img
+                        class="img-fluid o_we_custom_image o_animate o_anim_fade_in_left o_animate_both_scroll"
+                        src="/spoc_vchasno_connect/static/description/image/right_arrow.gif"
+                        data-original-id="4572" data-original-src="/spoc_vchasno_connect/static/description/image/4572-f5f831c0/XIwNtM29TyhH.gif"
+                        data-mimetype="image/gif" loading="lazy"
+                        style="animation-name: o_anim_fade_in_left; visibility: visible; animation-play-state: paused;">Display
+                of fiscal information on checks: fiscal number, QR-code.<br><br><img
+                        class="img-fluid o_we_custom_image o_animate o_anim_fade_in_left o_animate_both_scroll"
+                        src="/spoc_vchasno_connect/static/description/image/right_arrow.gif"
+                        data-original-id="4572" data-original-src="/spoc_vchasno_connect/static/description/image/4572-f5f831c0/XIwNtM29TyhH.gif"
+                        data-mimetype="image/gif" loading="lazy"
+                        style="animation-name: o_anim_fade_in_left; visibility: visible; animation-play-state: paused;">The
+                ability to reprint a fiscalized receipt.<br><br><img
+                        class="img-fluid o_we_custom_image o_animate o_anim_fade_in_left o_animate_both_scroll"
+                        src="/spoc_vchasno_connect/static/description/image/right_arrow.gif"
+                        data-original-id="4572" data-original-src="/spoc_vchasno_connect/static/description/image/4572-f5f831c0/XIwNtM29TyhH.gif"
+                        data-mimetype="image/gif" loading="lazy"
+                        style="animation-name: o_anim_fade_in_left; visibility: visible; animation-play-state: paused;">Fixing
+                the sending of the check to the customer in the Order.<br><br><img
+                        class="img-fluid o_we_custom_image o_animate o_anim_fade_in_left o_animate_both_scroll"
+                        src="/spoc_vchasno_connect/static/description/image/right_arrow.gif"
+                        data-original-id="4572" data-original-src="/spoc_vchasno_connect/static/description/image/4572-f5f831c0/XIwNtM29TyhH.gif"
+                        data-mimetype="image/gif" loading="lazy"
+                        style="animation-name: o_anim_fade_in_left; visibility: visible; animation-play-state: paused;">Displaying
+                receipts in the history of the application and contact.<br><br><img
+                        class="img-fluid o_we_custom_image o_animate o_anim_fade_in_left o_animate_both_scroll"
+                        src="/spoc_vchasno_connect/static/description/image/right_arrow.gif"
+                        data-original-id="4572" data-original-src="/spoc_vchasno_connect/static/description/image/4572-f5f831c0/XIwNtM29TyhH.gif"
+                        data-mimetype="image/gif" loading="lazy"
+                        style="animation-name: o_anim_fade_in_left; visibility: visible; animation-play-state: paused;">Work
+                logs integration with Vchasno.kasa.<br><br><br></p></div>
+    </section>
+    <section class="s_title o_colored_level pt0 pb4" data-vcss="001" data-snippet="s_title" data-name="Title"
+             style="background-image: none;">
+        <div class="s_allow_columns container">
+            <h1 style="text-align: center;"><font style="font-size: 62px;">Description of the Module:</font><br></h1>
+        </div>
+    </section>
+    <section class="s_title o_colored_level pt0 pb8" data-vcss="001" data-snippet="s_title" data-name="Title"
+             style="background-image: none;">
+        <div class="s_allow_columns container">
+            <h1 style="text-align: center;"><font style="font-size: 62px;"><span style="font-size: 36px;">1. Registration and setup in Vchasno.Kasa:</span></font>
+            </h1></div>
+    </section>
+<section class="s_text_image pb32 o_colored_level pt0" data-snippet="s_text_image" data-name="Text - Image"
+         style="background-image: none;">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 pt16 pb16 o_colored_level">
+                <p><span style="font-size:12.0pt">&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Register with Vchasno.Kasa. This is an easy and quick procedure, after which you get access to your personal account:</span></p>
+            </div>
+            <div class="col-lg-6 pt16 pb16 o_colored_level">
+
+                <a target="_blank" href="https://www.youtube.com/embed/kn0NptWHKXo"><img src="/spoc_vchasno_connect/static/description/image/youtube_screen.png"
+                         class="img img-fluid mx-auto" loading="lazy" data-original-id="4531"
+                         data-original-src="/spoc_vchasno_connect/static/description/image/youtube_screen.png"
+                         data-mimetype="image/png" data-resize-width="690" style=""></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section class="s_text_image pt32 pb32 o_colored_level" data-snippet="s_text_image" data-name="Text - Image"
+             style="background-image: none;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 pt16 pb16 o_colored_level">
+                    <a target="_blank" href="https://www.youtube.com/embed/kn0NptWHKXo"><img src="/spoc_vchasno_connect/static/description/image/youtube_screen.png"
+                         class="img img-fluid mx-auto" loading="lazy" data-original-id="4531"
+                         data-original-src="/spoc_vchasno_connect/static/description/image/youtube_screen.png"
+                         data-mimetype="image/png" data-resize-width="690" style=""></a>
+                </div>
+                <div class="col-lg-6 pt16 pb16 o_colored_level">
+                    <h2><br></h2>
+                    <p>
+                        <span style="font-size:12.0pt">&nbsp; &nbsp;&nbsp;&nbsp; Add a point of sale and a cash register. To start issuing receipts, you need to register a point of sale, a cash register, and a cashier with the State Tax Service. With Vchasno.Kasa you can do this in one step. Fill out the form and all three applications will be sent to the State Tax Service at the same time.</span><br>
+                    </p></div>
+            </div>
+        </div>
+    </section>
+    <section class="s_text_image pt32 pb32 o_colored_level" data-snippet="s_text_image" data-name="Text - Image"
+             style="background-image: none;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 pt16 pb16 o_colored_level">
+                    <h2><br></h2>
+                    <p>
+                        <span style="font-size:12.0pt">&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;If you have already registered points of sale and cash registers with the State Tax Service before, you can import them. Register a cash register through the Vchasno.Kasa:   </span>
+                        <br></p></div>
+                <div class="col-lg-6 pt16 pb16 o_colored_level">
+                    <a target="_blank" href="https://www.youtube.com/embed/kn0NptWHKXo"><img src="/spoc_vchasno_connect/static/description/image/youtube_screen.png"
+                         class="img img-fluid mx-auto" loading="lazy" data-original-id="4531"
+                         data-original-src="/spoc_vchasno_connect/static/description/image/youtube_screen.png"
+                         data-mimetype="image/png" data-resize-width="690" style=""></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <p><br></p>
+    <section class="s_text_block pt40 o_colored_level pb0" data-snippet="s_text_block" data-name="Text"
+             style="background-image: none;">
+        <div class="s_allow_columns container">
+            <p><span style="font-size:12.0pt">&nbsp; &nbsp;&nbsp;&nbsp;Set up a cash register. Set up payment types and tax groups you will work with:</span>
+            </p>
+            <img class="img-fluid o_we_custom_image"
+                 src="/spoc_vchasno_connect/static/description/image/shots_so1.png"
+                 loading="lazy" data-original-id="4526" data-original-src="/spoc_vchasno_connect/static/description/image/shots_so1.png"
+                 data-mimetype="image/png" data-resize-width="1110" style="">
+            <p class="o_default_snippet_text"><br></p>
+            <p><span style="font-size:12.0pt">&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Check the tax groups and types of payment you need at the cash register:</span>
+            </p>
+            <p><img class="img-fluid o_we_custom_image"
+                    src="/spoc_vchasno_connect/static/description/image/shots_so2.png"
+                    data-original-id="4530"
+                    data-original-src="/spoc_vchasno_connect/static/description/image/shots_so2.png"
+                    data-mimetype="image/png" data-resize-width="1110" loading="lazy" style=""></p>
+            <p><br></p></div>
+    </section>
+    <section class="s_title o_colored_level pt0 pb8" data-vcss="001" data-snippet="s_title" data-name="Title"
+             style="background-image: none;">
+        <div class="s_allow_columns container">
+            <h1 style="text-align: center;"><font style="font-size: 62px;"><span style="font-size: 36px;">2. Installing and configuring the&nbsp;
+<span style="color: rgb(34, 34, 34); font-size: 36px; font-weight: 500; background-color: rgba(120, 215, 110, 0.25)">module</span>
+Vchasno kasa connector :</span></font></h1></div>
+    </section>
+    <section class="s_text_image pb32 o_colored_level pt0" data-snippet="s_text_image" data-name="Text - Image"
+             style="background-image: none;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 pt16 pb16 o_colored_level">
+                    <h2><br></h2>
+                    <p>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;Download and install the&nbsp;<span
+                            style="color: rgb(34, 34, 34); background-color: rgba(120, 215, 110, 0.25)">module</span>&nbsp;Vchasno
+                        kasa connector&nbsp; in Odoo.<br>Add the POS terminals to the POS dashboard:<br></p></div>
+                <div class="col-lg-6 pt16 pb16 o_colored_level">
+                    <img src="/spoc_vchasno_connect/static/description/image/shots_so3.png"
+                         class="img img-fluid mx-auto" loading="lazy" data-original-id="4531"
+                         data-original-src="/spoc_vchasno_connect/static/description/image/shots_so3.png"
+                         data-mimetype="image/png" data-resize-width="690" style="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="s_text_image pt32 pb32 o_colored_level" data-snippet="s_text_image" data-name="Text - Image"
+             style="background-image: none;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 pt16 pb16 o_colored_level">
+                    <h2><br></h2>
+                    <p>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;Specify tax groups. To do this, go to the Main menu -&gt;
+                        Cash register -&gt; Settings -&gt; Taxes. If necessary, click the New button or open the Taxes
+                        card. Go to the Advanced settings tab and fill in the Vchasno tax type field according to the
+                        codes of the Vchasno.kasa tax groups:<br></p></div>
+                <div class="col-lg-6 pt16 pb16 o_colored_level">
+                    <img src="/spoc_vchasno_connect/static/description/image/shots_so4.png"
+                         class="img img-fluid mx-auto" loading="lazy" data-original-id="4532"
+                         data-original-src="/spoc_vchasno_connect/static/description/image/shots_so4.png"
+                         data-mimetype="image/png" data-resize-width="690" style="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="s_text_image pt32 pb32 o_colored_level" data-snippet="s_text_image" data-name="Text - Image"
+             style="background-image: none;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 pt16 pb16 o_colored_level">
+                    <h2><br></h2>
+                    <p>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;Specify the types of payment at the cash desk. To do this,
+                        go to the Main menu -&gt; Cash register -&gt; Settings -&gt; Payment methods. Be sure to fill in
+                        the On time payment type field according to the codes of the Vchasno.kassa payment type: <br>
+                    </p></div>
+                <div class="col-lg-6 pt16 pb16 o_colored_level">
+                    <img src="/spoc_vchasno_connect/static/description/image/shots_so5.png"
+                         class="img img-fluid mx-auto" loading="lazy" data-original-id="4534"
+                         data-original-src="/spoc_vchasno_connect/static/description/image/shots_so5.png"
+                         data-mimetype="image/png" data-resize-width="690" style="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="s_text_block pt40 o_colored_level pb0" data-snippet="s_text_block" data-name="Text"
+             style="background-image: none;">
+        <div class="container s_allow_columns">
+            <p class="o_default_snippet_text">&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;Add a token for the cash register to
+                which the checks will be sent. To do this, go to the Main menu -&gt; Cash register and from the
+                dashboard, click the button with a vertical dot ( ⋮ ) on the POS card and click Edit. After that, a
+                pop-up window will open in which you can connect the Vchasno.Kasa Token:</p>
+            <p class="o_default_snippet_text"><img class="img-fluid o_we_custom_image"
+                                                   src="/spoc_vchasno_connect/static/description/image/shots_so6.png"
+                                                   loading="lazy" style=""><br></p>
+            <p class="o_default_snippet_text">&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;You can select a cash register token
+                in the Vchasno.kassa web office (<a href="https://kasa.vchasno.ua/),">https://kasa.vchasno.ua/),</a> by
+                going to the Settings of a particular cash register (the "Configure cash register" button on the "Points
+                of sale and cash desks" tab).<br></p>
+        </div>
+    </section>
+    <section class="s_title o_colored_level pt0 pb8" data-vcss="001" data-snippet="s_title" data-name="Title"
+             style="background-image: none;">
+        <div class="s_allow_columns container">
+            <h1 style="text-align: center;"><font style="font-size: 62px;"><span style="font-size: 36px;">3. Work with the Vchasno kasa service through the Odoo POS interface:</span></font>
+            </h1></div>
+    </section>
+    <section class="s_text_block pt40 o_colored_level pb0" data-snippet="s_text_block" data-name="Text"
+             style="background-image: none;">
+        <div class="container s_allow_columns">
+            <p>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Go to your POS and add products. After adding all the products,
+                click "Payment". When you click on the "Confirm" button, the receipt will be sent to Vchasno kasa, and
+                after it is fiscalized by the State Tax Service, you will see a screen with a fiscalized receipt and a
+                link to it.<br> Now you can generate an electronic receipt to send it to the buyer:<br></p>
+            <p><img class="img-fluid o_we_custom_image"
+                    src="/spoc_vchasno_connect/static/description/image/shots_so7.png"
+                    data-original-id="4536" data-original-src="/spoc_vchasno_connect/static/description/image/shots_so7.png"
+                    data-mimetype="image/png" loading="lazy" style=""><br></p>
+            <p class="o_default_snippet_text"><br></p>
+        </div>
+    </section>
+    <section class="s_text_image pt32 pb32 o_colored_level" data-snippet="s_text_image" data-name="Text - Image"
+             style="background-image: none;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 pt16 pb16 o_colored_level">
+                    <h2 class="o_default_snippet_text"><br></h2>
+                    <p>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;To transfer the receipt to the customer, choose a
+                        convenient way to send it - by mail, via message, in the form of a QR code, or in printed
+                        form:</p></div>
+                <div class="col-lg-6 pt16 pb16 o_colored_level">
+                    <img src="/spoc_vchasno_connect/static/description/image/shots_so8.png"
+                         class="img img-fluid mx-auto" loading="lazy" data-original-id="4537"
+                         data-original-src="/spoc_vchasno_connect/static/description/image/shots_so8.png"
+                         data-mimetype="image/png" data-resize-width="690" style="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="s_text_image pt32 pb32 o_colored_level" data-snippet="s_text_image" data-name="Text - Image"
+             style="background-image: none;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 pt16 pb16 o_colored_level">
+                    <img src="/spoc_vchasno_connect/static/description/image/shots_so9.png"
+                         class="img img-fluid mx-auto" loading="lazy" data-original-id="4538"
+                         data-original-src="/spoc_vchasno_connect/static/description/image/shots_so9.png"
+                         data-mimetype="image/png" data-resize-width="690" style="min-height: 1px;"
+                         data-lazy-loading-initial-min-height="">
+                </div>
+                <div class="col-lg-6 pt16 pb16 o_colored_level">
+                    <h2><br></h2>
+                    <p>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;If you work with Sales Orders in the Odoo Sales section and
+                        need to fiscalize a sales receipt, you can pay for it directly from the Cashier
+                        terminal.<br><br> To do this, click the Quotations/Orders button in the Cash Terminal section to
+                        get a complete list of quotations and sales orders created in the Sales section.<br><br><br></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="s_text_image pt32 pb32 o_colored_level" data-snippet="s_text_image" data-name="Text - Image"
+             style="background-image: none;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 pt16 pb16 o_colored_level">
+                    <img src="/spoc_vchasno_connect/static/description/image/shots_so10.png"
+                         class="img img-fluid mx-auto" loading="lazy" data-original-id="4539"
+                         data-original-src="/spoc_vchasno_connect/static/description/image/shots_so10.png"
+                         data-mimetype="image/png" data-resize-width="690" style="min-height: 1px;"
+                         data-lazy-loading-initial-min-height="">
+                </div>
+                <div class="col-lg-6 pt16 pb16 o_colored_level">
+                    <h2><br></h2>
+                    <p>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;From the list of customer orders, select the necessary one
+                        to make a payment.<br><br></p></div>
+            </div>
+        </div>
+    </section>
+    <section class="s_text_image pt32 pb32 o_colored_level" data-snippet="s_text_image" data-name="Text - Image"
+             style="background-image: none;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 pt16 pb16 o_colored_level">
+                    <h2><br></h2>
+                    <p>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;Enter the amount and click Confirm. The check will be sent
+                        to the State Tax Service, and you will see a screen with a fiscalized check and a link to
+                        it.<br><br> To return the goods and reimburse them, you need to click the "Refund" button from
+                        the cashier's workstation, select the appropriate order. Then select the item and quantity to be
+                        returned using the keyboard and click "Refund":<br><br><br></p></div>
+                <div class="col-lg-6 pt16 pb16 o_colored_level">
+                    <img src="/spoc_vchasno_connect/static/description/image/shots_so11.png"
+                         class="img img-fluid mx-auto" loading="lazy" data-original-id="4546"
+                         data-original-src="/spoc_vchasno_connect/static/description/image/shots_so11.png"
+                         data-mimetype="image/png" data-resize-width="690" style="min-height: 1px;"
+                         data-lazy-loading-initial-min-height="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="s_text_block pt40 o_colored_level pb0" data-snippet="s_text_block" data-name="Text"
+             style="background-image: none;">
+        <div class="s_allow_columns container">
+            <p class="o_default_snippet_text">&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;Then choose a payment method. Enter
+                the amount you are refunding to the buyer and click "Confirm". The check will be sent to the State Tax
+                Service, and you will see a screen with a fiscalized check and a link to it:<br></p>
+            <p class="o_default_snippet_text"><img class="img-fluid o_we_custom_image"
+                                                   src="/spoc_vchasno_connect/static/description/image/shots_so7.png"
+                                                   loading="lazy" style="min-height: 1px;"
+                                                   data-lazy-loading-initial-min-height=""></p>
+            <p class="o_default_snippet_text">&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;All that remains is to transfer the
+                check to the client in a way convenient for you.</p>
+            <p><span style="font-size:12.0pt">&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;Before closing the shift, check the correctness of the information in the Vchasno kasa service for compliance with the data in Odoo by making an X-report. &nbsp;&nbsp;</span>
+            </p>
+            <p><span style="font-size:12.0pt;color:black">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;To do this, from the POS dashboard, click the REPORT (X) CT button, which will generate a request for an X-report in the Vchasno.kassa account.&nbsp; &nbsp; &nbsp;&nbsp;</span>
+            </p>
+            <p><span style="font-size:12.0pt">&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;The X-Report opens in pdf format, which can be saved or printed:</span>
+            </p>
+            <p><span style="font-size:12.0pt;color:black"></span></p></div>
+    </section>
+    <section class="s_text_image pt32 pb32 o_colored_level" data-snippet="s_image_text" data-name="Image - Text"
+             style="background-image: none;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="pt16 pb16 o_colored_level col-lg-6">
+                    <img src="/spoc_vchasno_connect/static/description/image/shots_so12.png"
+                         class="img img-fluid mx-auto" loading="lazy" data-original-id="4549"
+                         data-original-src="/spoc_vchasno_connect/static/description/image/shots_so12.png"
+                         data-mimetype="image/png" data-resize-width="960" style="min-height: 1px;"
+                         data-lazy-loading-initial-min-height="">
+                </div>
+                <div class="pt16 pb16 o_colored_level col-lg-6">
+                    <img src="/spoc_vchasno_connect/static/description/image/shots_so13.png"
+                         class="img img-fluid mx-auto" loading="lazy" data-original-id="4552"
+                         data-original-src="/spoc_vchasno_connect/static/description/image/shots_so13.png"
+                         data-mimetype="image/png" data-resize-width="690" style="min-height: 1px;"
+                         data-lazy-loading-initial-min-height="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="s_text_block pt40 o_colored_level pb8" data-snippet="s_text_block" data-name="Text"
+             style="background-image: none;">
+        <div class="container s_allow_columns">
+            <p>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;At the end of the shift, close the session in the POS cashier
+                interface and click the CLOSE SHIFT (Z) button of the KT, which will automatically send a request to
+                close the shift to Vchasno.kassa and register the Z-report with the State Tax Service:<br><br> The
+                registered Z-Report opens in pdf format, which can be saved or printed:<br></p>
+        </div>
+    </section>
+    <section class="s_text_image pt32 pb32 o_colored_level" data-snippet="s_image_text" data-name="Image - Text"
+             style="background-image: none;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="pt16 pb16 o_colored_level col-lg-6">
+                    <img src="/spoc_vchasno_connect/static/description/image/shots_so14.png"
+                         class="img img-fluid mx-auto" loading="lazy" data-original-id="4550"
+                         data-original-src="/spoc_vchasno_connect/static/description/image/shots_so14.png"
+                         data-mimetype="image/png" data-resize-width="690" style="min-height: 1px;"
+                         data-lazy-loading-initial-min-height="">
+                </div>
+                <div class="pt16 pb16 o_colored_level col-lg-6">
+                    <img src="/spoc_vchasno_connect/static/description/image/shots_so15.png"
+                         class="img img-fluid mx-auto" loading="lazy" data-original-id="4551"
+                         data-original-src="/spoc_vchasno_connect/static/description/image/shots_so15.png"
+                         data-mimetype="image/png" data-resize-width="690" style="min-height: 1px;"
+                         data-lazy-loading-initial-min-height="">
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
 </body>
 </html>
